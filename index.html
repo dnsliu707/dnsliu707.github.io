@@ -200,6 +200,10 @@ h1{margin:0;font-weight:300;font-size:clamp(3.6rem,8.6vw,8.2rem);line-height:.9;
 .copy{height:40px;padding-inline:18px;border:1px solid var(--rule);border-radius:999px;background:transparent;cursor:pointer;
   font-family:var(--f-mono);font-size:12px;transition:border-color .2s}
 .copy:hover{border-color:var(--ink)}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.links a{display:inline-flex;align-items:center;gap:8px;height:40px;padding-inline:18px;border:1px solid var(--rule);border-radius:999px;
+  font-family:var(--f-mono);font-size:12px;text-decoration:none;color:var(--ink-2);transition:border-color .2s,color .2s}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
 .contact-meta{margin:0;font-family:var(--f-mono);font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 32px;margin-top:auto;padding-top:28px;padding-bottom:70px;
   border-top:1px solid var(--rule);font-family:var(--f-mono);font-size:11.5px;color:var(--ink-3)}
@@ -539,6 +543,9 @@ h1{margin:0;font-weight:300;font-size:clamp(3.6rem,8.6vw,8.2rem);line-height:.9;
         <div class="mail-row">
           <span class="mail" id="mail">dnsliu@utexas.edu</span>
           <button class="copy" id="copyBtn" type="button">Copy</button>
+        </div>
+        <div class="links">
+          <a href="https://scholar.google.com/citations?user=r_RtLMkAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
         </div>
         <p class="contact-meta">Austin, Texas · <span id="clock">Central Time</span></p>
       </div>
